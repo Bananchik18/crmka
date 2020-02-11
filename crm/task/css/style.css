@@ -1,0 +1,24 @@
+ul{
+	padding: 0;
+}
+ul li{
+	display: block;
+}
+#information_task{
+	    float: left;
+    margin-top: 5%;
+}
+#information_task ul li div{
+	display: inline-flex;
+}
+#information_task ul div input{
+	margin-top: 1%;
+}
+#listTask{
+	float: left;
+    width: 10%;
+    margin-top: 5%;
+}
+#formNewTask{
+	display: none;
+}

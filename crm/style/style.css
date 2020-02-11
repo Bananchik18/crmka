@@ -1,0 +1,68 @@
+#loginForm{
+	width: 19%;
+	margin: 0 auto;
+	margin-top: 15%;
+
+}
+#loginForm input:nth-child(1){
+	width: 86%;
+    height: auto;
+    height: 21px;
+    margin-bottom: 20px;
+    outline: none;
+    border-bottom: 2px solid;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+#loginForm input:nth-child(2){
+	width: 86%;
+    height: auto;
+    height: 21px;
+    margin-bottom: 20px;
+    outline: none;
+    border-bottom: 2px solid;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+#loginForm input:nth-child(3){
+    width: 86%;
+    height: auto;
+    height: 21px;
+    margin-bottom: 20px;
+    outline: none;
+    border-bottom: 2px solid;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+#loginForm input:nth-child(4){
+	border: 0;
+    background: #ffc72b;
+    width: 44%;
+    height: 30px;
+    display: block;
+    margin-left: 51px;
+    outline: none;
+}
+#registerForm{
+	width: 20%;
+	margin: 7% auto;
+
+}
+#registerForm input{
+	width: 86%;
+    height: auto;
+    height: 21px;
+    margin-bottom: 20px;
+    outline: none;
+    border-bottom: 2px solid;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+#registerForm input:nth-child(10){
+	background: #ffc72b;
+	border:0;
+}

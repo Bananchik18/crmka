@@ -1,0 +1,451 @@
+body{
+  overflow-y: none;
+  margin:0;
+  padding: 0;
+  background: #80808029;
+}
+.deleteMessage{
+ float: right;
+ border: 0;
+ background: white;
+ font-size: 20px;
+}
+.fileSend {
+  overflow: hidden;
+  position: relative;
+  float: right;
+}
+
+.fileSend [type=file] {
+  cursor: inherit;
+  display: block;
+  font-size: 999px;
+  filter: alpha(opacity=0);
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+}
+.fileSend {
+  /*background: red;*/
+  background: url('dark-paperclip.png');
+  border-radius: .5em;
+  float: left;
+  padding: .5em;
+  height: 32px;
+  width: 34px;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+
+.fileSend [type=file] {
+  cursor: pointer;
+}
+
+#openImg img{
+  position: fixed;
+  top: 0%;
+  display: block;
+  z-index: 99999999;
+}
+#imgUser{
+  width: 35%;
+}
+#group_chat_dialog{
+  border-radius: 0px;
+}
+.modal{
+  height: 50%;
+  /*overflow-y: scroll;*/
+}
+.block-btn{
+  display: none;
+}
+
+#list{
+  float: left;
+  width: 23%;
+  height: 90%;
+  margin-top: 30px;
+  background: #363e47;
+  overflow-y: scroll;
+}
+#list #user_details ul li h6{
+  color: #f7f7f8;
+}
+#list #user_details ul li p{
+  color:#f7f7f8;
+}
+#user_group ul li h6{
+  color: #f7f7f8;
+}
+#blockForCalendar{
+  float: right;
+  width: 30%;
+}
+#user_chat{
+  float: left;
+  width: 45%;
+}
+.status{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: block;
+  float: left;
+  margin-top: 8px;
+}
+.badge:empty {
+  display: none;
+  display: block;
+}
+#user_details ul li p{
+  margin-left: 18px;
+}
+#user_details ul li{
+  display: block;
+}
+#group_chat{
+  /*float: right;*/
+  /*margin-right: 60px;*/
+  background: rgb(32, 39, 47);
+    border: 0;
+    color: white;
+    width: 207px;
+    margin-top: 10px;
+    margin-left: 37px;
+}
+#globalSearch{
+  margin-bottom: 15px;
+}
+#globalSearchInput{
+  margin-left: 38px;
+  background: rgb(32, 39, 47);
+  border: 0;
+  height: 32px;
+  outline: none;
+  color: white;
+  padding-left: 10px;
+  width: 205px;
+}
+#user_group ul li{
+  display: block;
+}
+.close-modal{
+  margin: 18px;
+}
+#btnNavidation{
+  display: none;
+}
+.send_chat_group{
+  /*float: right;*/
+}
+li{
+  display: block;
+}
+.blockQuotes{
+  display: none;
+}
+.start_chat h6 span{
+  margin-left: 15px;
+}
+#globalSearchInput{
+
+}
+#resultSearch{
+  margin-left: 42px;
+}
+#foundUser p{
+  color: white;
+}
+#foundUser p b{
+  color: white;
+}
+#foundMessage p{
+  color: white;
+}
+#foundMessage b{
+  color: white;
+}
+#foundGroup {
+  color: white;
+}
+#foundGroup p{
+  color: white;
+}
+#foundMessageGroup p{
+  color: white;
+}
+#foundMessageGroup b{
+  color: white;
+}
+#user_chat{
+  margin-top: 30px;
+}
+#messageUser{
+  text-align: right;
+
+}
+#messageUser span{
+/*            position: relative;
+    background: #00aabb;
+    border-radius: .4em;
+    padding: 1px 1px 1px 20px*/
+
+  }
+  .list-unstyled li p span{
+    word-wrap: break-word;
+  }
+  .list-unstyled li p{
+    /*width: 60%;*/
+  }
+
+  #messageUserForward{
+    text-align: right;
+
+  }
+/*#menuUser{
+    border: 0;
+    outline: 0;
+}
+#menuUser:hover{
+    background: #a7a5a5;;
+}
+#menuUser img{
+    width: 50%;
+    }*/
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      margin-left: 62%;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 9999;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    #fixedMessageLi{
+      position: absolute;
+      background: white;
+      width: 43.5%;
+      border: 1px solid gray;
+    }
+    .list-unstyled{
+      margin-top: 40px;
+    }
+    #deleteFixed{
+      border: 0;
+      background: white;
+      margin-left: 9px;
+      float: right;
+    }
+    .chat_history{
+      border:1px solid #ccc; 
+      overflow-y: scroll; 
+      margin-bottom:7px; 
+      /*padding: 0 16px 0;*/
+      height: 63%;
+      background: white;
+    }
+
+    #showFile{
+      /*width: 100%;*/
+      margin-bottom: 10px;
+    }
+    #showFile:hover{
+      box-shadow: 2px 2px rgba(0,0,0,0.5);
+    }
+    #selectName{
+      /*width: 100%;*/
+      margin-bottom: 10px;
+    }
+    #selectName:hover{
+      box-shadow: 2px 2px rgba(0,0,0,0.5);
+    }
+    #showMessage{
+      margin-bottom: 10px;
+    }
+    #showMessage:hover{
+      box-shadow: 2px 2px rgba(0,0,0,0.5);
+    }
+    #selectNameGroup{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    #selectNameGroup:hover{
+      box-shadow: 2px 2px rgba(0,0,0,0.5);
+    }
+    .infoGroup{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .infoGroup:hover{
+      box-shadow: 2px 2px rgba(0,0,0,0.5);
+
+    }
+    #delete_user_group{
+     /*float: right;*/
+     /*margin-right: 43%;*/
+     border: 0;
+     background: orange;
+   }
+   #infoAboutGroup ul li h6{
+    width: 25%;
+  }
+  #infoAboutGroup ul li{
+    display: flex;
+    margin-bottom: 10px;
+  }
+  #infoAboutGroup ul{
+    overflow-y: scroll;
+    height: 50%;
+
+  }
+  .leaveFromGroup{
+    background: #f33a27;
+    border: 0;
+    color: white;
+    padding: 7px;
+    margin-left: 32%;
+  }
+  #btnAddMemberGroup{
+    padding: 5px;
+    margin-left: 16px;
+    background: none;
+    border: 2px solid black;
+    margin-bottom: 37px;
+  }
+  #listOfUsers ul{
+    overflow-y: scroll;
+  }
+  #deleteGroup{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5%;
+  }
+  #appoint{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;    
+  }
+  #btnAddNewUserToGroup{
+    margin: 0 auto;
+    display: block;
+  }
+  #closeWindowAddUserGroup{
+    margin-bottom: 8%;
+  }
+  .selectBtnNewUserGroup{
+
+  }
+
+
+  input[type="checkbox"] {
+   display: none; 
+ }
+
+ input[type="checkbox"] + label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  font: 14px/20px 'Open Sans', Arial, sans-serif;
+  color: #ddd;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+input[type="checkbox"] + label:last-child { margin-bottom: 0; }
+
+input[type="checkbox"] + label:before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ff3209;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .6;
+  -webkit-transition: all .12s, border-color .08s;
+  transition: all .12s, border-color .08s;
+}
+
+input[type="checkbox"]:checked + label:before {
+  width: 10px;
+  top: -5px;
+  left: 5px;
+  border-radius: 0;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#listOfUsers ul li{
+  display: flex;
+}
+#listOfUsers ul li h6{
+  width: 25%;
+}
+#createGroupInput{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+#btnCreateGroup{
+  margin: 24px auto 0;
+  display: block;
+  border: 2px solid;
+}
+#openImg1{
+  height: auto;
+}
+#openVideo{
+  height: auto;
+}
+#deleteFixedGroup{
+  border: 0;
+  background: white;
+  margin-left: 9px;
+}
+
+#fieldForNiticeMessage{
+  height: 100%;
+}
+.fc-day-grid-container.fc-scroller {
+    height: auto!important;
+}
+
+#nameUser{
+    margin-left: 24%;
+    margin-top: 27px;
+}
+
+#nameUser p{
+  color: white;
+}
+#name_companion{
+  margin-bottom: -12px;
+}
+.chat_history .list-unstyled{
+  padding-left: 15px;
+  padding-right: 15px;
+}
